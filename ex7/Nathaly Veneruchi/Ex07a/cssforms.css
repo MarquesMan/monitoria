@@ -1,0 +1,23 @@
+form{
+	width: 500px;
+	margin: 0 auto;
+	background-color: #FF69B4;
+	padding: 45px;
+
+}
+
+h1{
+	text-align: center;
+	color:#FF69B4;
+}
+
+
+form input { 
+	width:500px;
+}
+
+td {
+	border: 1px solid #333;
+	padding: 4px;
+	background-color: #eee;
+}

@@ -1,0 +1,30 @@
+table{
+	font-family: arial, sans-serif;
+	 border-collapse: collapse;
+
+}
+h1{
+  text-align: center;
+
+}
+
+ td {
+    border: 1px solid #000000;
+   padding: 10px;
+   }
+
+   th{
+   	border:1px solid #000000;
+   	text-align: center;
+   	padding: 10px;
+   }
+
+   table#um th{
+   	background: #D8BFD8;
+   }
+
+   table#um tr:nth-child(even){
+   	background-color: #D9D9D9;
+   }
+
+ 

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+
+.table_container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+input#new_entry{
+    margin: 5px;
+}
+input#list_entries{
+    margin: 5px;
+}
+
+
+table {
+	background-color: white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+table#index_table th {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

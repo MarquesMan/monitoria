@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Cadastro Contato</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+<form action="mensagem.html" method="post">
+	
+	<label >Primeiro Nome: 
+		<input type="text" name="primeironome" required = "" placeholder = "Primeiro nome">
+	</label>
+
+	<label >Último Nome: 
+	<input type="text" name="ultimonome" required = "" placeholder = "Último nome">
+	</label>
+
+	<label >Email:
+	<input type="email" name="email" placeholder = "exemplo@email.com.br">
+	</label>
+
+	<label >Telefone (formato: xx-xxxxx-xxxx): 
+	<input pattern="^\d{2}\d{5}-\d{4}$" type="tel">
+	</label>
+
+    <input  type="submit" value="Enviar">
+</form>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro contato</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<h1>Cadastro de novo contato</h1>
+		<form id="f01">
+			<label for="nome">Nome:</label><br>
+			<input type="text" id="nome" name="nome" required placeholder="nome"><br>
+
+			<label for="url">URL:</label><br>
+			<input type="url" id="url" name="url" required placeholder="seu site"><br>
+			
+			<label for="email">e-mail:</label><br>
+			<input type="email" id="email" name="email" required placeholder="seu email"><br>
+
+			<label for="telefone">Telefone:</label><br>
+			<input type="tel" id="telefone" name="telefone" required placeholder="telefone"><br>
+
+			<label for="datanascimento">Data de nascimento:</label><br>
+			<input type="text" id="datanascimento" name="nascimento" required><br>
+
+			<label for="cpf">CPF:</label><br>
+			<input id="cpf" name="cpf" pattern="\d{3}.?\d{3}.?\d{3}-?\d{2}" required placeholder="   .   .   -  "><br>
+
+			<label for="cep">CEP:</label><br>
+			<input name="cep" id="cep" required pattern="\d{5}-?\d{3}" placeholder="     -   " /><br>
+
+			<br><input type="submit"> <a href="mensagem.html"><div id="ok"></div></a>>
+		</form>
+
+	</body>
+
+</html>
+	

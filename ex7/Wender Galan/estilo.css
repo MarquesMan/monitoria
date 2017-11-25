@@ -1,0 +1,35 @@
+h2{
+	font-size: 20px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+
+
+table{
+	margin-top: 30px;
+	width: 50%;
+}
+
+table#t2 th{
+	background-color: #95b3d7;
+	text-align: left;
+	padding-left: 10px;
+	text-align: center;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding-left: 10px;
+	text-align: center;
+}
+
+
+caption{
+	font-style: italic;
+	text-align: center;
+}
+

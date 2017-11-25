@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: visible;
+}
+.fail {
+    color: red
+}
+.sucess {
+    color: green
+}
+.ignore-navbar {
+    margin-top: 58px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100vw
+}
+a {
+    background-color: orangered;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none
+}
+a:link,
+a:visited {
+    color: #eeeeee;
+    background-color: orangered
+}
+a:hover {
+    background-color: #eeeeee;
+    color: orangered
+}
+.container {
+	margin: 0 calc(50% - 190px);
+}
+.fix-div {
+	margin-bottom: 20px;
+}
+label {
+	width: 140px;
+}
+label,
+input {
+	display: inline-block;
+	text-align: left;	
+}
+input {
+	width: 200px;
+}
+.btn-send {
+    background-color: green!important;
+    color: #eeeeee!important
+}
+.btn-send:hover {
+    color: green!important;
+    background-color: #eeeeee!important
+}
+.btn {
+	float: right;
+}

@@ -1,0 +1,29 @@
+a{
+	background-color: #82ce80;
+	padding: 30px;
+}
+a:hover{background-color: #9ffc9c; cursor:pointer;}
+
+table th{
+	background: #95b3d7;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+th, td{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a#lista{
+	background-color: #82ce80;
+	padding: 20px;
+}
+a#lista:hover{background-color: #9ffc9c; cursor:pointer;}

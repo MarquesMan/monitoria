@@ -1,0 +1,48 @@
+.container {
+	margin: 0px 20px 0px 20px;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  text-align: left;
+}​
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+a {
+	text-decoration: none;
+}
+
+#table1 th {
+	background-color: #95b3d7;
+}
+
+.list-all-btn {
+	
+}
+
+.home-btn {
+
+}
+
+.fail {
+
+}
+
+.fail h1 {
+	color: red;
+	line-height: 0px;
+}
+
+.success {
+
+}
+
+.success h1 {
+	color: green;
+	line-height: 0px;
+}

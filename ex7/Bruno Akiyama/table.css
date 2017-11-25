@@ -1,0 +1,19 @@
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th{
+	padding: 10px;
+	text-align: center;
+}
+td{
+	padding-left: 10px;
+	padding-right: 30px;
+}
+caption{
+	font-style: italic;
+	text-align: left;
+}
+table{
+	margin-bottom: 30px;
+}

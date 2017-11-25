@@ -1,0 +1,28 @@
+form{
+	background-color: lightgreen;
+	margin-left: 50px;
+	margin-right: 70px;
+	border: solid;
+}
+.titulohome{
+	border: dotted;
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+}
+body{
+	background-color: lightgreen;
+}
+
+table{
+	border: 1px solid black;
+    	border-collapse: collapse;
+      padding: 5px;
+}
+th{
+
+  border: 1px solid #000000; 
+  padding:10px;
+}

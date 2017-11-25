@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Novo contato</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container">
+	<nav>
+		<a href="index.html">Home</a>
+	</nav>
+	<section class="ignore-navbar">
+		<form>
+			<h1>Novo contato</h1>
+			<div class="fix-div">
+				<label>Url (página pessoal):</label>
+				<input placeholder="https://www.xxx.com.br" type="url" required>
+			</div>
+			<div class="fix-div">
+				<label>E-mail:</label>
+				<input placeholder="xxxxx@xxxxx.com" type="email" required>
+			</div>
+			<div class="fix-div">
+				<label>Telefone:</label>
+				<input placeholder="(00) 00000-0000" type="text" pattern="^\(?\d{2}\)?[\s-]?\d{5}-?\d{4}$" required>
+			</div>
+			<div class="fix-div">
+				<label>Data de Nascimento:</label>
+				<input placeholder="00/00/0000" type="text" pattern="\d{2}/\d{2}/\d{4}" required>
+			</div>
+			<div class="fix-div">
+				<label>CPF:</label>
+				<input placeholder="000.000.000-00" type="text" pattern="([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})" required>
+			</div>
+			<div class="fix-div">
+				<label>Cep:</label>
+				<input placeholder="00000-000" pattern="\d{5}.?\d{3}" required>
+			</div>
+			<a class="btn btn-send" href="mensagem.html">Enviar</a>
+		</form>
+	</section>
+</body>
+</html>

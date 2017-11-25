@@ -1,0 +1,27 @@
+/* normalize */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,caption, thead {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body {line-height:1;}ol, ul {list-style:none;}blockquote, q {quotes:none;}blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}/* remember to define focus styles! */:focus {outline:0;}/* remember to highlight inserts somehow! */ins {text-decoration:none;}del {text-decoration:line-through;}a{text-decoration:none;}input, textarea { border:0; }textarea { overflow:auto;resize:none; }
+/* fim reset */
+
+#tudo { width:800px;margin:0 auto; }
+
+.menu {width:800px;height:50px;background-color:#09C;}
+.menu ul { list-style:none;text-align:center; }
+.menu ul li { position:relative;display:inline-block;padding:0 8px; }
+.menu ul li a { color:#FFF;height:16px;font-size:16px;font-weight:bold;padding:17px 10px;display:block; }
+.menu ul li:hover { background-color:#42caf7;cursor:pointer; }
+
+.conteudo h1 { text-align:center;padding:10px 0; }
+
+.conteudo form { padding:10px 0;font-size:14px; }
+.conteudo form input[type=text] { width:289px;height:29px;padding:5px;border:1px solid #cacaca;margin-bottom:10px;font-size:14px; }
+.conteudo form input[type=mail] { width:289px;height:29px;padding:5px;border:1px solid #cacaca;margin-bottom:10px;font-size:14px; }
+.conteudo form input[type=submit] { width:300px;height:40px;font-weight:bold;font-size:14px;color:#FFF;cursor:pointer;background-color:#09C; }
+.conteudo form input[type=submit]:hover { background-color:#42caf7; }
+
+.conteudo table { width:500px;margin:0 auto;border-collapse: collapse; }
+.conteudo table td, th {border: 1px solid #dddddd;text-align: left;padding: 8px;}
+.conteudo table tr:nth-child(even) { background-color: #dddddd; }
+
+
+.conteudo .sucesso { width:500px;margin:0 auto;padding:10px 0;text-align:center;color:#FFF;background-color:#2fbf5c; }
+.conteudo .erro { width:500px;margin:0 auto;padding:10px 0;text-align:center;color:#FFF;background-color:#bf2f36; }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastrar novo contato</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<form action = "mensagem.html" method="post">
+		<label>Primeiro nome: <input type="text" required="" name="PNome" placeholder="Primeiro nome"> </label>
+		<label>Último nome: <input type="text" required="" name="UNome" placeholder="Último nome"> </label>
+		<label>E-mail: <input type="email" name="email" required=""> </label>
+		<label>Telefone: <input type="text" name="telefone" placeholder="(dd) xxxxx-xxxx" pattern="^\d{2}-\d{5}-\d{4}$" title="xx-xxxxx-xxxx" required=""> </label>
+		<label>Endereço: <input type="text" name="end"> </label>
+
+		<input type="submit" value="enviar">
+		<input type="reset" value="reset">
+	</form>
+
+</body>
+</html>

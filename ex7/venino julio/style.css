@@ -1,0 +1,16 @@
+th {
+    background: gray;
+}
+.inicio{
+    background-color: blue;
+    width: 50%;
+    margin-left: 30%;
+    
+}
+.sucesso{
+    background-color: greenyellow;
+    
+}
+.erro{
+    background-color: red;
+}

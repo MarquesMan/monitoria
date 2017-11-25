@@ -1,0 +1,79 @@
+
+body {
+  text-align:center;
+  margin:auto;
+}  
+
+
+h1 {
+  font-family:georgia;
+  text-align:center;
+}  
+
+a {
+  display:block;
+  width:290px;
+  padding:5px;
+  background:#fff;
+  margin:1px auto;
+  color:#696969;
+} 
+
+a:hover {
+    color:#d5d5d5;
+}  
+
+.box{
+  width:50%;
+  height:auto;
+  padding:20px;
+  text-align:center;
+  margin:100px auto;
+  background:#d5d5d5;
+}
+
+.mensagemSucesso {
+  width:50%;
+  height:auto;
+  padding:20px;
+  text-align:center;
+  margin:100px auto;
+  background:#d5d5d5;
+}
+
+.mensagemErro {
+  width:50%;
+  height:auto;
+  padding:20px;
+  text-align:center;
+  margin:100px auto;
+  background:#d5d5d5;
+}  
+
+table {
+ border-collapse: collapse;
+ margin-bottom:20px;
+} 
+
+th, td, tr {
+ border: 1px solid #000; 
+ width:200px;
+ padding:0 5px 0 5px;
+} 
+
+th {
+  background:#696969;
+  color:#fff;
+  text-align:center;
+} 
+
+tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+

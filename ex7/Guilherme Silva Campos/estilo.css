@@ -1,0 +1,38 @@
+
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+
+    padding: 5px;
+    text-align: center;
+}
+table{
+	margin-top: 20px;
+}
+
+.total{
+	background-color: #1E90FF;
+}
+
+.cadastro{
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	text-align:10px;
+	background-color: #1E90FF;
+	
+}
+
+.lista{
+	margin-right: 50px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	text-align:10px;
+	background-color: #1E90FF;
+}

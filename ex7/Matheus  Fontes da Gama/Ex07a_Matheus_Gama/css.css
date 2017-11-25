@@ -1,0 +1,60 @@
+form {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+table, th, td {
+	border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#tabela1 th {
+	background-color: #B0C4DE;
+}
+#tabela1 tr:nth-child(even) {
+	background-color: #DDDDDD;
+}
+
+div {
+	border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 30px
+}

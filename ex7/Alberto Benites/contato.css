@@ -1,0 +1,54 @@
+input {
+	display:block;
+}
+
+body {
+    background-color: powderblue;
+    
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+th {
+    border: 1px solide #000000;
+    text-align: center;
+    padding 10 px;
+}
+
+table#lista th{
+    background-color: #95b3d7;
+    text-align: center;
+
+}

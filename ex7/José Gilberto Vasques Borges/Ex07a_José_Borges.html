@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro de Contatos</title>
+        <link rel="stylesheet" type="text/css" href="todos.css">
+    </head>
+    <body>
+        
+        <h1>Cadastro de Contatos </h1>
+        <div> <a href="novo.html" class="botao">Novo </a></div>
+        <div><a href="listar.html" class="botao">Listar </a></div>
+            
+       
+        
+    </body>
+</html>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="todos.css">
+    </head>
+    <body>
+        <div>        
+            <table>
+            <caption>Usuários cadastrados</caption> 
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>  
+            <tr>
+                <td>José Borges</td>
+                <td>Lorddlinx@gmail.com</td>
+            </tr>
+            </table>
+       </div>
+        <div>    
+            <a href="index.html" class="botao">Início</a>
+        
+        
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mensagem de sucesso</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="todos.css">
+       
+    </head>
+    <body>
+        <div>Usuário cadastrado com sucesso!</div>
+        <div>Erro ao cadastrar usuário!</div>
+        <a href="index.html" class="botao">Início</a>
+    </body>
+</html>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Novo Cadastro</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="todos.css">
+    </head>
+    <body>
+        <div><p> Novo contato </p> 
+        
+         <form action="mensagem.html">
+         Nome: <input type="text" name="Nome" placeholder="Insira seu nome completo"><br>
+         Email: <input type="email" name="Email" placeholder="exemplo@exemplo.com"><br>
+         <input type="submit" value="Submit" name="Botao" >
+         
+        </form>
+        </div>
+       
+        
+        
+     
+        
+        </body>
+</html>
+input[type=submit] {
+    width: 10%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 260px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 260px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+table{
+    height: 20px;
+    margin: 8px;
+    text-indent: 5px;
+    padding: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 1px solid black;
+    background-color:  cornflowerblue
+}
+table tr:nth-child(even) {
+   background-color: lightgray;
+}
+
+td{
+    height: 12px;
+    width: 150px;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.botao{
+    height: 10px;
+    width: 20px;
+    margin: 5px;
+    background-color:  lightskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário Contato</title>
+	    <link rel="stylesheet" type="text/css" href="esquema.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Formulário Contato</h1>
+		<form action="mensagem.html">
+			<label for="nome">Nome Completo: </label>
+			<input type="text" name="Primeiro nome" id="nome" pattern="[A-Za-z]{2,}" required="required" title="No mínimo 2 letras">
+			<label for="cpf"> CPF.: </label>
+			<input name="cpf" id="cpf" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" required="required" title="Preencher no formato 000.000.000-00">
+			<label for="masculino" id="l_masc">Masculino:</label>
+			<input type="radio" name="Sexo" value="M" id="masculino" checked>
+			<label for="feminino" id="l_fem"> Feminino:</label>
+			<input type="radio" name="Sexo" value="F" id="feminino">
+			<label for="dtnasc">Data de Nascimento: </label>
+			<input type="date" name="dtnasc" id="dtnasc" required="required">
+			<label for="endereco" id="end">Endereço: </label>
+			<input type="tel" name="endereco" id="endereco" required="required" title="No mínimo 2 caracteres">
+			<label for="cep"> CEP.: </label>
+			<input name="cep" id="cep" pattern="\[0-9]{5}-[0-9]{3}" placeholder="00000-00" title="Preencha o CEP no formato indicado: 00000-00" required="required">
+			<label for="fone_fixo" id="tel_f">Telefone Fixo: </label>
+			<input type="tel" name="fone" id="fone_fixo" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" placeholder="(xx) xxxx-xxxx">
+			<label for="fone_cel" id="tel_c">Celular: </label>
+			<input type="tel" name="fone" id="fone_cel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(xx) xxxxx-xxxx" required>
+			<label for="email"> Email: </label>
+			<input type="email" name="email" id="email">
+			<label for="enviar"></label>
+			<input type="submit" id="enviar" value="Enviar">
+		</form>
+	</body>
+</html>

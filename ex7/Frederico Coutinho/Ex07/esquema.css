@@ -1,0 +1,71 @@
+.cabecalho{
+	border-style: solid;
+	background-color: yellow;
+	;
+}
+
+.falha{
+	border-style: solid;
+	background-color: blue;
+}
+
+.sucesso{
+	border-style: solid;
+	background-color: green;
+
+}
+.contato{
+
+	float:left;
+	width: 79%;
+	height: 125px;
+	padding: 5px;
+	
+}
+.lista{
+	float:left;
+	width: 79%;
+	height: 125px;
+	padding: 5px;
+
+
+}
+
+.home{
+
+	float:right;
+	width: 79%;
+	height: 125px;
+	padding: 5px;
+
+}
+table, th, td{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+table#t01 th{
+   background-color: #95B3D7;
+}
+
+th, td{
+width: 300px;
+}
+
+table#t01 tr:nth-child(odd){
+   background-color: #D9D9D9;
+}
+table#t01 tr:nth-child(even){
+  background-color: #FFFFFF;
+}
+
+caption{
+font-style: italic;
+text-align: left;
+}
+
+.index{
+   border-style: double;
+      
+}
+

@@ -1,0 +1,39 @@
+
+input{
+
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+h1{
+    text-align : center;
+}
+
+#l_masc, #l_fem{
+	float: left;
+}
+
+#enviar{
+	text-align: center;
+}
+
+#enviar:hover{
+	background-color: rgba(0, 191, 255, 0.5);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

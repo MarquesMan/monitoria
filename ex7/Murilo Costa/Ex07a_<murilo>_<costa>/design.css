@@ -1,0 +1,37 @@
+body{
+	background-color: #baf8fc;
+}
+h1{
+	text-align: center;
+	border-style: ridge;
+	border-color: #245a96;
+	border-radius: 10px;
+}
+input{
+	text-align: left;
+	margin-top: 5px;
+}
+label{
+	margin-top: 5px;
+	font-style: times;
+}
+p{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 20px;
+}
+a{
+	text-align: center;
+	border-style: ridge;
+	border-color: #bcc0c4;
+	border-radius: 10px;
+	background-color: #bcc0c4;
+	padding: 6px;
+}
+.botao{
+	margin-top: 30px;
+	text-align: center;
+}
+.botaozin{
+	display: inline-table;
+}

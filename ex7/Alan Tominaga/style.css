@@ -1,0 +1,56 @@
+label
+{
+	display: none;
+}
+
+.block
+{
+	border-style: dotted;
+	border-width: 2px;
+	border-color: gray;
+	padding: 1em;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1
+{
+	color: gray;
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+}
+
+a
+{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+a:visited
+{ 
+    color: blue;
+}
+
+.input
+{
+	display: block;
+	border-style: solid;
+	border-width: 1px
+}
+
+.button
+{
+	margin-top: 1em;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}

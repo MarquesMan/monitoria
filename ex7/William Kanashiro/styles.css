@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: #C9C9C9;
+    margin-top: 2%; 
+    text-align: center;
+
+}
+.botao{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a{
+    background-color: rgb(136, 136, 136);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+table{
+    display: inline-table;
+    text-align: center;
+    
+}
+
+th, td{
+    padding: 10px;
+}
+
+.fundo{
+    padding: 20px;
+    display: inline-block;
+    background-color: #BEBEBE;
+}

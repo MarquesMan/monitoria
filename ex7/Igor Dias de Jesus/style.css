@@ -1,0 +1,86 @@
+h1, h4{
+	text-align: center;
+	color: #4f4d4d;
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+.msg-erro{
+	color: #7a0000;
+}
+.msg-sucesso{
+	color: #008c3a;
+}
+.msg-aviso{
+	color: #e5bb02;
+}
+.conteudo{
+	width: 500px;
+	margin: 100px auto;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: 2px dashed grey;
+	padding: 20px;
+}
+form label{
+	display: inline-block;
+	min-width: 130px;
+	max-width: 130px;
+}
+
+form input{
+	padding: 8px;
+	width: 300px;
+}
+form input:after{
+	display: inherit;
+}
+
+form input[type=radio], form input[type=checkbox]{
+	display: block;
+	float: left;
+	width: auto;
+}
+form label.genero, .radio-opcoes{
+	float:left;
+}
+.radio-opcoes{
+	width: 300px;
+}
+input{
+	margin: 5px 0 5px 0;
+}
+input[type="radio"]{
+	margin: 0;
+}
+a.special{
+	display: inline-table;
+}
+button, a.special, input.special{
+	padding: 15px;
+	border: transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: auto;
+	color: #ffffff;
+	margin-top: 15px;
+}
+.right{
+	float:right;
+}
+button:hover, a.special:hover{
+	cursor: pointer;
+}
+button.verde, input.verde, a.verde{
+	background: #008c3a;
+}
+button.vermelho, input.vermelho, a.vermelho{
+	background: #7a0000;
+}
+button.amarelo, input.amarelo, a.amarelo{
+	background: #e5bb02;
+}

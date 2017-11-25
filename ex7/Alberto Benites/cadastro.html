@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ex 07-a Cadastro</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<!--Este é um comentário. Não exibido.-->
+		<link rel="stylesheet" type="text/css" href="contato.css">
+
+</head>
+<body>
+<form>
+
+  <label for="Nome"> Nome:</label>
+  <input type="text" name="nome" required/>
+
+  <label for="Sobrenome"> Sobrenome:</label>
+  <input type="text" name="sobrenome" required/>
+
+  <label for="Altura"> Altura:</label>
+  <input id="Altura" name="valuex" type="number" value="1.50" step="0.1" min="0" max="2.20" required/>
+
+  <input type="radio" name="gender" value="male" checked/> Male
+  <input type="radio" name="gender" value="female"/> Female
+  <input type="radio" name="gender" value="other"/> Other
+
+  <label for="url"> url:</label>
+  <input type="text" name="url" required/>
+
+
+  <label for="e-mail"> e-mail:</label>
+  <input type="text" name="email" required/>
+
+
+  <label for="Telefone"> Telefone:</label>
+  <input type="text" name="fone" required/>
+
+
+  <label for="Datanascimento">Datanascimento:</label>
+  <input name="Datanascimento" id="Datanascimento" required 
+  type="date"
+  />
+
+  <label for="CPF">CPF:</label>
+  <input name="CPF" id="CPF" required 
+  pattern="\d{3}.?\d{3}.?\d{3}-?\d{2}" 
+  placeholder="___.___.___-__" />
+
+  <label for="Endereço"> Endereço:</label>
+  <input type="text" name="endereco" required/>
+
+  <label for="CEP">CEP:</label>
+  <input name="CEP" id="CEP" required 
+  pattern="\d{5}-?\d{3}" 
+  placeholder="______-___" />
+
+  <input type="submit" value="Enviar" />
+</form>
+
+</body>
+</html>

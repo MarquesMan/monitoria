@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro</title>
+	<meta charset="UTF-8">
+	<link href=" color.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Novos Cadastros</h1>
+
+	<label>Nome: </label>
+	<input type = "text" id = "Nome">
+	
+	<label>Data de Nascimento:</label><br>
+	<input type = "date" id = "aniversário" required>
+
+	<label>Telefone:</label>
+	<input type = "tel" id = "telefone" required patten = "(?\d{2})?\d{5}-?\d{4}" placeholder ="(__)_____-____">
+	
+	<input type="submit" id = "enviar">
+	<input type = "reset" id="Apagar">
+
+</body>
+</html>

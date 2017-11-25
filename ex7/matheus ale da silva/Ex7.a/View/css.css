@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+h1 {
+	padding: 10%;
+	background-color: #d6d6d6;
+	text-transform: uppercase;
+	font-family: 'Oxygen', sans-serif;
+	color: #666666;
+	font-size: 3em;
+}
+.nu, .lc {
+	padding: 5%;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 2.5em;
+}
+
+.nu {
+	background-color: #006fa3;
+	float: left;
+	margin-left: 4%;
+	color: #002233;
+}
+
+.lc {
+	background-color: #71b200;
+	float: right;
+	margin-right: 4%;
+	color: #233800;	
+}
+
+.listaC {
+	width: 98%;
+	margin-left: 1%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em;
+}
+
+td {
+	padding: 10px;
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+.listaC tr:nth-child(even) {
+	background-color: #f2efef;
+}
+
+.suss, .falha {
+	width: 80%;
+	margin-left: 2%;
+	padding: 8%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.5em;
+}
+
+.suss {
+	background-color: #07c654;
+}
+
+.falha {
+	background-color: #ff3535;
+}
+
+
+.cadastro label, .cadastro input {
+	float: left;
+	clear: left;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.cadastro label {
+	font-size: 1.8em;
+	margin-top: 20px;
+}
+
+.cadastro input[type='text']{
+	font-size: 1.4em;
+	padding: 2%;
+	border: none;
+	border-bottom: 2px solid #63a4f9;
+	width: 96%;
+}
+
+.cadastro input[type='submit'] {
+	width: 100%;
+	height: 60px;
+	margin-top: 40px;
+	border: none;
+	background-color: #62f974;
+	font-size: 1.5em;
+
+}
+.cadastro input[type='submit']:hover {
+	background-color: #81f48f;
+}
+
+
+
+
+
+

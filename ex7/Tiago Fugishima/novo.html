@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset = 'utf-8'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<form action="mensagem.html">
+			<table class="table">
+				<tr>
+					<td><label>Nome</label></td>
+					<td><input type="text" name="Nome Completo" required></td>
+				</tr>
+				<tr>
+					<td><label>Telefone</label></td>
+					<td><input type="tel" name="Telefone" placeholder="(DDD)XXXX-XXXX" pattern="\d{2}-\d{4}-\d{4}"></td>
+				</tr>
+				<tr>
+					<td><label>Celular</label></td>
+					<td><input type="tel" name="Celular" placeholder="(DDD)9XXXX-XXXX" pattern="\d{2}-\d{5}-\d{4}"></td>
+				</tr>
+				<tr>
+					<td><label>E-mail</label></td>
+					<td><input type="email" name="E-mail" placeholder="nome@gmail.com"></td>
+				</tr>
+				<tr>
+					<td><label>Endereço</label></td>
+					<td><input type="text" name="Endereço" required></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="submit"></td>
+					<td><input type="reset" name="reset"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
